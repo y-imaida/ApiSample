@@ -55,5 +55,5 @@ Rails.application.routes.draw do
   #   end
   resources :blogs, only: [:index]
 
-  resources :poems, only: [:index]
+  resources :poems, only: [:index, :show]
 end
